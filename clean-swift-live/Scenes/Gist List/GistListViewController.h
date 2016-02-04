@@ -17,4 +17,5 @@
 @property (strong, nonatomic) id<GistListViewControllerOutput> output;
 @property (strong, nonatomic) GistListRouter *router;
 - (void)displaySomething:(GistListViewModel *)viewModel;
+-(void) displayListGists;
 @end
